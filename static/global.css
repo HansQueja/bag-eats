@@ -1,0 +1,24 @@
+/* Global Setup */
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+    width: 100%;
+}
+
+.content {
+    max-width: 1440px;
+    width: 100%;
+    background-color: white;
+}
+
+/* Fonts */
+.nav-name {
+    font-family: 'Manjari', sans-serif;
+}
+
+/* Transitions */
+.nav-links,
+.nav-links:hover {
+    transition: all 0.3s ease;
+}
