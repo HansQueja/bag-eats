@@ -1,8 +1,20 @@
+/* Media Query */
+@media (max-width: 991px) { /* Mobile Navigation */
+    .content-container {
+        margin-top: 84px;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop Navigation */
+    .content-container {
+        margin-top: 90px;
+    }
+}
+
 /* Global Setup */
 .content-container {
     display: flex;
     justify-content: center;
-    margin-top: 84px;
     width: 100%;
 }
 
