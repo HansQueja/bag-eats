@@ -7,16 +7,24 @@
 
 @media (min-width: 992px) { /* Desktop Navigation */
     .content-container {
-        margin-top: 90px;
+        margin-top: 104px;
     }
 }
 
 /* Global Setup */
+body {
+    background: #09575A !important;
+}
+
 .content-container {
     display: flex;
     height: 100vh;
     justify-content: center;
     width: 100%;
+}
+
+.content-white-bg {
+    background: white;
 }
 
 .content-gradient {
@@ -33,7 +41,12 @@
 }
 
 /* Fonts */
-.nav-name {
+.nav-name,
+.form-label,
+.form-input,
+.label-radio,
+.label-checkbox,
+.form-btn {
     font-family: 'Manjari', sans-serif;
 }
 
@@ -51,6 +64,8 @@
 .login-link a,
 .login-link a:hover,
 .forgot-pass,
-.forgot-pass:hover {
+.forgot-pass:hover,
+.form-btn,
+.form-btn:hover {
     transition: all 0.3s ease;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Links -->
+    <link rel="stylesheet" href="/static/form.css">
     <link rel="stylesheet" href="/static/nav.css">
     <link rel="stylesheet" href="/static/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -61,8 +62,146 @@
     <!-- Contents -->
     <div class="content-container content-gradient">
         <div class="content">
-            <!-- Code Here -->
-            Hello World!
+            <form>
+                <label class="form-label" for="form-budget">Maximum Budget</label>
+                <input class="form-input" type="number" name="form-label" min="0" placeholder="₱0.00" required>
+
+                <div class="form-layout">
+                    <div>
+                        <label class="form-label">Select a Meal Type:</label>
+                        <div class="form-base">
+                            <div class="form-first">
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Breakfast" required>
+                                        <label class="label-radio" for="meal-type">Breakfast</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Lunch" required>
+                                        <label class="label-radio" for="meal-type">Lunch</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Dinner" required>
+                                        <label class="label-radio" for="meal-type">Dinner</label>
+                                    </div>
+                                </div>
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Merienda" required>
+                                        <label class="label-radio" for="meal-type">Merienda</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Snacks" required>
+                                        <label class="label-radio" for="meal-type">Snacks</label> 
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-radio" type="radio" name="meal-type" value="Beverages" required>
+                                        <label class="label-radio" for="meal-type">Beverages</label>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-label">Select Dietary Restrictions:</label>
+                        <div class="form-base">
+                            <div class="form-second">
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="dietary-restrictions" value="Vegetarian">
+                                        <label class="label-checkbox" for="dietary-restrictions">Vegetarian</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="dietary-restrictions" value="Vegan">
+                                        <label class="label-checkbox" for="dietary-restrictions">Vegan</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="dietary-restrictions" value="Pescatarian">
+                                        <label class="label-checkbox" for="dietary-restrictions">Pescatarian</label>
+                                    </div>
+                                </div>
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="dietary-restrictions" value="Halal">
+                                        <label class="label-checkbox" for="dietary-restrictions">Halal</label>  
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="dietary-restrictions" value="Kosher">
+                                        <label class="label-checkbox" for="dietary-restrictions">Kosher</label> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-label">Select Allergen Avoidance:</label>
+                        <div class="form-base">
+                            <div class="form-third">
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="allergen-avoidance" value="Gluten-Free">
+                                        <label class="label-checkbox" for="allergen-avoidance">Gluten-Free</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="allergen-avoidance" value="Dairy-Free">
+                                        <label class="label-checkbox" for="allergen-avoidance">Dairy-Free</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="allergen-avoidance" value="Nut-Free">
+                                        <label class="label-checkbox" for="allergen-avoidance">Nut-Free</label>
+                                    </div>
+                                </div>
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="allergen-avoidance" value="Soy-Free">
+                                        <label class="label-checkbox" for="allergen-avoidance">Soy-Free</label> 
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="allergen-avoidance" value="Seafood-Free">
+                                        <label class="label-checkbox" for="allergen-avoidance">Seafood-Free</label>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-label">Select Nutritional Preferences:</label>
+                        <div class="form-base">
+                            <div class="form-fourth">
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="nutritional-preferences" value="Low-Carb">
+                                        <label class="label-checkbox" for="nutritional-preferences">Low-Carb</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="nutritional-preferences" value="Low-Fat">
+                                        <label class="label-checkbox" for="nutritional-preferences">Low-Fat</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="nutritional-preferences" value="High-Protein">
+                                        <label class="label-checkbox" for="nutritional-preferences">High-Protein</label>
+                                    </div>
+                                </div>
+                                <div class="form-dflex">
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="nutritional-preferences" value="Low-Sugar">
+                                        <label class="label-checkbox" for="nutritional-preferences">Low-Sugar</label> 
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-checkbox" type="checkbox" name="nutritional-preferences" value="Low-Sodium">
+                                        <label class="label-checkbox" for="nutritional-preferences">Low-Sodium</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-button">
+                    <button class="form-btn" type="submit">Proceed</button>
+                    <a type="button" class="form-btn" href="/templates/home.html">Cancel</a>
+                </div>
+            </form>
         </div>
     </div>
 </body>
