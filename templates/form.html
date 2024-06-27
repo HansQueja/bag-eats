@@ -14,12 +14,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Manjari:wght@100;400;700&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- Title Page -->
-    <title>BagEats | Home</title>
+    <title>BagEats | Form</title>
     <link rel="icon" type="image/x-icon" href="/images/icon.png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav bg-color1">
+        <!-- Desktop Navigation -->
+        <div class="nav-desktop">
+            <a href="/templates/home.html">
+                <img class="nav-logo" src="/images/logo-1.png" alt="logo">
+            </a>
+            <div class="d-flex align-items-center" style="gap: 30px;">
+                <a class="nav-links" href="/templates/home.html">Home</a>
+                <a class="nav-links" href="/templates/about.html">About</a>
+                <button class="nav-links" type="button">Logout</button>
+                <a href="/templates/profile.html" target="_blank" rel="noopener noreferrer">
+                    <img class="nav-profile" src="/images/no-profile.jpg" alt="profile-pic">
+                </a>
+            </div>
+        </div>
         <!-- Mobile Navigation -->
         <div class="nav-mobile">
             <a href="/templates/home.html">
@@ -37,29 +51,15 @@
                         <img class="nav-profile" src="/images/no-profile.jpg" alt="profile-pic">
                     </a>
                     <p class="nav-name">First Name Last Name</p>
-                    <a class="active nav-links" href="/templates/home.html">Home</a>
+                    <a class="nav-links" href="/templates/home.html">Home</a>
                     <a class="nav-links" href="/templates/about.html">About</a>
                     <button class="nav-links" type="button">Logout</button>
                 </div>
             </div>
         </div>
-        <!-- Desktop Navigation -->
-        <div class="nav-desktop">
-            <a href="/templates/home.html">
-                <img class="nav-logo" src="/images/logo-1.png" alt="logo">
-            </a>
-            <div class="d-flex align-items-center" style="gap: 30px;">
-                <a class="active nav-links" href="/templates/home.html">Home</a>
-                <a class="nav-links" href="/templates/about.html">About</a>
-                <button class="nav-links" type="button">Logout</button>
-                <a href="/templates/profile.html" target="_blank" rel="noopener noreferrer">
-                    <img class="nav-profile" src="/images/no-profile.jpg" alt="profile-pic">
-                </a>
-            </div>
-        </div>
     </nav>
     <!-- Contents -->
-    <div class="content-container">
+    <div class="content-container content-gradient">
         <div class="content">
             <!-- Code Here -->
             Hello World!

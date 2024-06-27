@@ -14,14 +14,22 @@
 /* Global Setup */
 .content-container {
     display: flex;
+    height: 100vh;
     justify-content: center;
     width: 100%;
+}
+
+.content-gradient {
+    background: linear-gradient(#09575A, #13BAC0);
+}
+
+.content-gradient-top {
+    background: linear-gradient(to top, #042526, #0E878C);
 }
 
 .content {
     max-width: 1440px;
     width: 100%;
-    background-color: white;
 }
 
 /* Fonts */
@@ -29,8 +37,20 @@
     font-family: 'Manjari', sans-serif;
 }
 
+.login-label,
+.login-input,
+.login-submit,
+.forgot-pass,
+.login-link {
+    font-family: 'Arimo', 'sans-serif';
+}
+
 /* Transitions */
 .nav-links,
-.nav-links:hover {
+.nav-links:hover,
+.login-link a,
+.login-link a:hover,
+.forgot-pass,
+.forgot-pass:hover {
     transition: all 0.3s ease;
 }
