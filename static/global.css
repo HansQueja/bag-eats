@@ -47,6 +47,8 @@
 
 /* Fonts */
 .nav-name,
+.home-description,
+.home-btn,
 .form-label,
 .form-input,
 .label-radio,
@@ -63,11 +65,17 @@
     font-family: 'Arimo', 'sans-serif';
 }
 
+.home-title {
+    font-family: 'Radley', 'sans-serif';
+}
+
 /* Transitions */
 .nav-links,
 .nav-links:hover,
 .login-link a,
 .login-link a:hover,
+.home-btn,
+.home-btn:hover,
 .forgot-pass,
 .forgot-pass:hover,
 .form-btn,
