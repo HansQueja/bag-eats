@@ -1,0 +1,10 @@
+/* Media Query */
+@media (max-width: 991px) { /* Mobile Navigation */
+    body {
+        background: #09575A !important;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop Navigation */
+    
+}

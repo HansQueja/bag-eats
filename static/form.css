@@ -1,5 +1,9 @@
 /* Media Query */
 @media (max-width: 991px) { /* Mobile Navigation */
+    body {
+        background: #09575A !important;
+    }
+
     .content {
         padding: 30px;
     }

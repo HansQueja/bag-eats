@@ -1,21 +1,26 @@
 /* Media Query */
 @media (max-width: 991px) { /* Mobile Navigation */
+    body {
+        background: #09575A;
+    }
+
     .content-container {
         margin-top: 84px;
     }
 }
 
 @media (min-width: 992px) { /* Desktop Navigation */
-    .content-container {
-        margin-top: 104px;
+    body {
+        background: #09575A !important;
     }
+    
+    .content-container {
+        margin-top: 90px;
+    }
+    
 }
 
 /* Global Setup */
-body {
-    background: #09575A !important;
-}
-
 .content-container {
     display: flex;
     height: 100vh;

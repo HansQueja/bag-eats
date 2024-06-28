@@ -1,0 +1,32 @@
+/* Media Query */
+@media (max-width: 991px) { /* Mobile Navigation */
+    body {
+        background: #0E878C !important;
+    }
+
+    .home-mobile {
+        display: flex;
+    }
+
+    .home-desktop {
+        display: none;
+    }
+
+    .bg-color {
+        background-color: #0E878C;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop Navigation */
+    .home-mobile {
+        display: none;
+    }
+
+    .home-desktop {
+        display: flex;
+    }
+
+    .bg-color {
+        background-color: #09575A;
+    }
+}

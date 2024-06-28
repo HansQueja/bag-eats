@@ -1,0 +1,24 @@
+/* Media Query */
+@media (max-width: 991px) { /* Mobile Navigation */
+    body {
+        background: #0E878C !important;
+    }
+    
+    .bg-color {
+        background-color: #0E878C;
+    }
+
+    .content-gradient-bg {
+        background: linear-gradient(to top, #042526, #0E878C);
+    }
+}
+
+@media (min-width: 992px) { /* Desktop Navigation */
+    .bg-color {
+        background-color: #09575A;
+    }
+
+    .content-gradient-bg {
+        background: linear-gradient(#09575A, #13BAC0);
+    }
+}

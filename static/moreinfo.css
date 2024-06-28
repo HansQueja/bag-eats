@@ -1,0 +1,12 @@
+/* Media Query */
+@media (max-width: 991px) { /* Mobile Navigation */
+    
+}
+
+@media (min-width: 992px) { /* Desktop Navigation */
+    
+}
+
+.bg-color {
+    background: linear-gradient(to right, #09575A, #13BAC0);
+}
