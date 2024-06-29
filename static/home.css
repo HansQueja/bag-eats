@@ -65,15 +65,28 @@
         display: flex;
     }
 
+    .content-container {
+        height: auto !important;
+    }
+
     .content {
         align-items: center;
         display: flex;
-        gap: 60px;
-        padding: 0 60px 60px 60px;
+        gap: 120px;
+        padding: 0 120px 0px 120px;
     }
 
     .home-title {
-        font-size: 25px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .home-description {
+        margin: 30px 0;
+    }
+
+    .home-button {
+        gap: 30px;
     }
 
     .home-btn {
@@ -82,7 +95,12 @@
     }
 
     .homepage-pic {
-        width: 315px;
+        /* height: 820px; */
+        height: 605px;
+        margin: 60px auto 0 auto;
+        object-fit: cover;
+        object-position: 100% 0%;
+        width: 40%;
     }
 }
 
@@ -92,7 +110,6 @@
 
 .home-description {
     color: white;
-    margin: 0;
 }
 
 .home-button {

@@ -61,8 +61,8 @@
 
     .phone-img {
         display: block;
-        height: 500px;
-        margin: auto;
+        height: 460px;
+        margin: 40px auto;
         object-fit: cover;
         object-position: 100% 0%;
         width: 82%;
