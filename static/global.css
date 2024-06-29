@@ -49,6 +49,9 @@
 .nav-name,
 .home-description,
 .home-btn,
+.info-motto,
+.info-header,
+.info-body,
 .form-label,
 .form-input,
 .label-radio,
@@ -65,7 +68,8 @@
     font-family: 'Arimo', 'sans-serif';
 }
 
-.home-title {
+.home-title,
+.info-title {
     font-family: 'Radley', 'sans-serif';
 }
 
