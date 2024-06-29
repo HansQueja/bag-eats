@@ -10,6 +10,10 @@
     /*.content-gradient-bg {
         background: linear-gradient(to top, #042526, #0E878C);
     }*/
+    
+    .content-container {
+        height: auto !important;
+    }
 
     .content{
         padding: 20px;
@@ -58,6 +62,10 @@
     /*.content-gradient-bg {
         background: linear-gradient(#09575A, #13BAC0);
     }*/
+
+    .content-container {
+        height: auto !important;
+    }
 
     .content{
         padding: 80px;
