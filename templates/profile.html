@@ -23,21 +23,21 @@
     <nav class="nav bg-color">
         <!-- Desktop Navigation -->
         <div class="nav-desktop">
-            <a href="/templates/home.html">
+            <a href="/home.html">
                 <img class="nav-logo" src="/images/logo-1.png" alt="logo">
             </a>
             <div class="d-flex align-items-center" style="gap: 30px;">
-                <a class="nav-links" href="/templates/home.html">Home</a>
-                <a class="nav-links" href="/templates/about.html">About</a>
+                <a class="nav-links" href="/home.html">Home</a>
+                <a class="nav-links" href="/about.html">About</a>
                 <button class="nav-links" type="button">Logout</button>
-                <a href="/templates/profile.html" target="_blank" rel="noopener noreferrer">
+                <a href="/profile.html" target="_blank" rel="noopener noreferrer">
                     <img class="nav-profile" src="/images/no-profile.jpg" alt="profile-pic">
                 </a>
             </div>
         </div>
         <!-- Mobile Navigation -->
         <div class="nav-mobile">
-            <a href="/templates/home.html">
+            <a href="/home.html">
                 <img class="nav-logo" src="/images/logo-1.png" alt="logo">
             </a>
             <button class="nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#nav-mobile" aria-controls="nav-mobile">
@@ -48,12 +48,12 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <a href="/templates/profile.html">
+                    <a href="/profile.html">
                         <img class="nav-profile" src="/images/no-profile.jpg" alt="profile-pic">
                     </a>
                     <p class="nav-name">First Name Last Name</p>
-                    <a class="nav-links" href="/templates/home.html">Home</a>
-                    <a class="nav-links" href="/templates/about.html">About</a>
+                    <a class="nav-links" href="/home.html">Home</a>
+                    <a class="nav-links" href="/about.html">About</a>
                     <button class="nav-links" type="button">Logout</button>
                 </div>
             </div>
@@ -66,18 +66,22 @@
             <h1 class="pro-head">PROFILE</h1>
             <img class="pro-pic" src="/images/no-profile.jpg" alt="profile pic">
             <form class="pro-info">
-                    <label class="pro-label name" for="pro-name">Name:</label>
-                    <input class="pro-input" type="name" name="pro-name" required>
-                    <div class="pro-outline-name"></div>
+                    <label class="pro-label" for="pro-name">Name:</label>
+                    <div class="pro-outline">
+                        <input class="pro-input" type="name" name="pro-name" required>
+                    </div>
                     <label class="pro-label" for="pro-email">Email:</label>
+                    <div class="pro-outline">
                     <input class="pro-input" type="email" name="pro-email" required>
-                    <div class="pro-outline-email"></div>
+                    </div>
                     <label class="pro-label" for="pro-password">New Password:</label>
+                    <div class="pro-outline">
                     <input class="pro-input" type="password" name="pro-password" required>
-                    <div class="pro-outline-password"></div>
+                    </div>
                     <label class="pro-label" for="pro-cpassword">Confirm Password:</label>
+                    <div class="pro-outline">
                     <input class="pro-input" type="password" name="pro-cpassword" required>
-                    <div class="pro-outline-cpassword"></div>
+                    </div>
             </form>
             <div class="pro-button">
                 <button class="pro-close">CLOSE</button>
