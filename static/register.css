@@ -2,10 +2,18 @@
 @media (max-width: 991px) { /* Mobile Navigation */
     .register-mobile {
         display: flex;
+
+        .content-container{
+            height: 105vh;
+        }
     }
 
     .register-desktop {
         display: none;
+    }
+
+    .reg-head{
+        color: white;
     }
 
     .register-logo
@@ -15,6 +23,10 @@
             display: block;
             margin: 0 auto;
         }
+    }
+
+    .reg-input{
+        color: white;
     }
 
     .content{
@@ -48,6 +60,7 @@
         display: flex;
     }
 
+
     .register-logo
     {
         .reg-logo{
@@ -59,6 +72,7 @@
     }
 
     .reg-head{
+        color: #09575A;
         font-size: 2rem;
         margin-left: 30px;
     }
@@ -70,12 +84,14 @@
 
 
         .reg-input{
+            border-color: #09575A;
             width: 85%;
             height: 15%;
             position: relative;
             left: 10%;
         }
         .reg-label{
+            color: #786382;
             font-size: 20px;
             font-weight: bold;
             position: relative;
@@ -93,7 +109,7 @@
     }
 
     .reg-form{
-        background-color: transparent;
+        background-color: white;
         border: 10px white solid;
         border-radius: 5px;
         
@@ -108,7 +124,7 @@
         font-size: 20px;
         font-weight: bold;
         color: white;
-        background-color: #EBB346;
+        background-color: #13BAC0;
         border: 1px white solid;
         border-radius: 5px;
         margin: 38px 0;
@@ -122,7 +138,6 @@
 }
 
 .reg-head{
-    color: white;
     display: block;
     margin: 0 auto;
     padding: 10px;
