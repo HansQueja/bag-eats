@@ -53,60 +53,24 @@
             z-index: 3;
         }
 
-        .pro-input{
-            margin-left: 40px;
-            height: 35px;
+        .pro-outline{
+            height: 40px;
             width: 100%;
-            border-color: transparent;
+            z-index: 1;
+            border: 3px solid white;
             border-radius: 45px;
-            z-index: 2;
-            justify-self: left;
-        }
+            display: grid;
+            grid-template-columns: 50px 1fr;
 
-        .pro-outline-name{
-            height: 35px;
-            width: 100%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 59px;
-            margin-left: 50px;
-            justify-self: right;
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 50px;
-        }
-        .pro-outline-email{
-            height: 35px;
-            width: 100%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 123px;
-            justify-self: right;
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 50px;
-        }
-        .pro-outline-password{
-            height: 35px;
-            width: 100%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 187px;
-            justify-self: right;
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 50px;
-        }
-        .pro-outline-cpassword{
-            height: 35px;
-            width: 100%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 251px;
-            justify-self: right;
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 50px;
+            .pro-input{
+                height: 100%;
+                width: 100%;
+                border-color: transparent;
+                border-radius: 45px;
+                z-index: 2;
+                justify-self: left;
+                grid-column: 2;
+            }
         }
     }
 
@@ -152,10 +116,11 @@
     .pro-info{
         display: grid;
         grid-template-rows: 1fr auto;
-        padding: 10px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 20px;
 
         .pro-label{
-            margin-left: 10%;
             font-size: 25px;
             font-weight: bold;
             color: white;
@@ -163,63 +128,26 @@
             z-index: 3;
         }
 
-        .pro-input{
-            margin-left: 40px;
+        .pro-outline{
             height: 50px;
-            width: 70%;
-            border-color: transparent;
-            border-radius: 15px;
-            z-index: 2;
+            width: 100%;
+            z-index: 1;
+            border: 2px solid white;
+            background-color: transparent;
             justify-self: center;
-        }
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
 
-        .pro-outline-name{
-            height: 50px;
-            width: 50%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 42.4px;
-            margin-left: 10%;
-            /*justify-self: center;*/
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 15px;
-        }
-        .pro-outline-email{
-            height: 50px;
-            width: 50%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 135px;
-            margin-left: 10%;
-            /*justify-self: center;*/
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 15px;
-        }
-        .pro-outline-password{
-            height: 50px;
-            width: 50%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 227.4px;
-            margin-left: 10%;
-            /*justify-self: center;*/
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 15px;
-        }
-        .pro-outline-cpassword{
-            height: 50px;
-            width: 50%;
-            z-index: 1;
-            position: absolute;
-            margin-top: 320px;
-            margin-left: 10%;
-            /*justify-self: center;*/
-            border: 2px solid white;
-            background-color: transparent;
-            border-radius: 15px;
+            .pro-input{
+                height: 100%;
+                width: 100%;
+                border-color: transparent;
+                border-radius: 15px;
+                z-index: 2;
+                justify-self: left;
+                grid-column: 2;
+            }
         }
     }
 
