@@ -11,6 +11,115 @@
     .content-gradient-bg {
         background: linear-gradient(to top, #042526, #0E878C);
     }
+
+    .content{
+        padding: 50px;
+    }
+
+    /*.content-container{
+        height: auto !important;
+    }*/
+
+    .pro-close{
+        display: none;
+    }
+
+    .pro-head{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .pro-pic{
+        width: 250px;
+        max-width: 250px;
+        border-radius: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pro-info{
+        display: grid;
+        grid-template-rows: 1fr auto;
+        padding: 30px;
+        max-width: 496px;
+        margin: 0 auto;
+        position: relative;
+
+        .pro-label{
+            color: white;
+            padding-top: 5px;
+            z-index: 3;
+        }
+
+        .pro-input{
+            margin-left: 40px;
+            height: 35px;
+            width: 100%;
+            border-color: transparent;
+            border-radius: 45px;
+            z-index: 2;
+            justify-self: left;
+        }
+
+        .pro-outline-name{
+            height: 35px;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 59px;
+            margin-left: 50px;
+            justify-self: right;
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 50px;
+        }
+        .pro-outline-email{
+            height: 35px;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 123px;
+            justify-self: right;
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 50px;
+        }
+        .pro-outline-password{
+            height: 35px;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 187px;
+            justify-self: right;
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 50px;
+        }
+        .pro-outline-cpassword{
+            height: 35px;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 251px;
+            justify-self: right;
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 50px;
+        }
+    }
+
+    .pro-update{
+        display: block;
+        margin: 0 auto;
+
+        width: 200px;
+        height: 40px;
+        color: white;
+        background-color: #EBB346;
+        border-color: transparent;
+    }
 }
 
 @media (min-width: 992px) { /* Desktop Navigation */
@@ -21,4 +130,128 @@
     .content-gradient-bg {
         background: linear-gradient(#09575A, #13BAC0);
     }
+
+    .content-container{
+        height: auto !important;
+    }
+
+    .pro-head{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .pro-pic{
+        width: 150px;
+        max-width: 150px;
+        border-radius: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pro-info{
+        display: grid;
+        grid-template-rows: 1fr auto;
+        padding: 10px;
+
+        .pro-label{
+            margin-left: 10%;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            padding-top: 5px;
+            z-index: 3;
+        }
+
+        .pro-input{
+            margin-left: 40px;
+            height: 50px;
+            width: 70%;
+            border-color: transparent;
+            border-radius: 15px;
+            z-index: 2;
+            justify-self: center;
+        }
+
+        .pro-outline-name{
+            height: 50px;
+            width: 50%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 42.4px;
+            margin-left: 10%;
+            /*justify-self: center;*/
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 15px;
+        }
+        .pro-outline-email{
+            height: 50px;
+            width: 50%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 135px;
+            margin-left: 10%;
+            /*justify-self: center;*/
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 15px;
+        }
+        .pro-outline-password{
+            height: 50px;
+            width: 50%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 227.4px;
+            margin-left: 10%;
+            /*justify-self: center;*/
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 15px;
+        }
+        .pro-outline-cpassword{
+            height: 50px;
+            width: 50%;
+            z-index: 1;
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 10%;
+            /*justify-self: center;*/
+            border: 2px solid white;
+            background-color: transparent;
+            border-radius: 15px;
+        }
+    }
+
+    .pro-button{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 20px;
+        padding-bottom: 21px;
+
+        .pro-update{
+            width: 40%;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #EBB346;
+            border-color: transparent;
+            justify-self: left;
+            margin-left: 10px;
+        }
+
+        .pro-close{
+            width: 40%;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #EBB346;
+            border-color: transparent;
+            justify-self: right;
+            margin-right: 10px;
+        }
+    }
+    
 }
