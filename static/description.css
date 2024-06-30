@@ -50,7 +50,8 @@
         .desc-rating{
 
             .desc-stars{
-                width: 40px;
+                font-size: 20px;
+                color: #EBBA6B;
             }
         }
 
@@ -147,7 +148,8 @@
             grid-row: 3;
             margin-left: 30px;
             .desc-stars{
-                width: 40px;
+                font-size: 30px;
+                color: #EBBA6B;
             }
         }
 

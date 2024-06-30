@@ -49,6 +49,11 @@
 .nav-name,
 .home-description,
 .home-btn,
+.about-motto,
+.about-mission,
+.about-contact,
+.about-form,
+.about-btn,
 .info-motto,
 .info-header,
 .info-body,
@@ -73,6 +78,10 @@
     font-family: 'Radley', 'sans-serif';
 }
 
+.about-title {
+    font-family: 'Passion One', sans-serif;
+}
+
 /* Transitions */
 .nav-links,
 .nav-links:hover,
@@ -80,6 +89,8 @@
 .login-link a:hover,
 .home-btn,
 .home-btn:hover,
+.about-btn,
+.about-btn:hover,
 .forgot-pass,
 .forgot-pass:hover,
 .form-btn,
