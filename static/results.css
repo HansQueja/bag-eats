@@ -50,6 +50,11 @@
             color: #09575A;
             grid-row: 1;
             grid-column: 3;
+
+            &:hover
+            {
+                color: #13BAC0;
+            }
         }
     }
 }
@@ -88,6 +93,11 @@
             font-size: 20px;
             color: #09575A;
             grid-row: 1;
+
+            &:hover
+            {
+                color: #13BAC0;
+            }
         }
 
         .results-filter{
@@ -97,6 +107,11 @@
             font-size: 20px;
             color: #09575A;
             grid-row: 1;
+
+            &:hover
+            {
+                color: #13BAC0;
+            }
         }
     }
 
@@ -125,6 +140,11 @@
             color: #09575A;
             grid-row: 1;
             grid-column: 3;
+
+            &:hover
+            {
+                color: #13BAC0;
+            }
         }
     }
     
