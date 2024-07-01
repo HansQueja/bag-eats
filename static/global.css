@@ -46,6 +46,22 @@
 }
 
 /* Fonts */
+.desc-subhead,
+.desc-ingredients,
+.desc-back,
+.combo-cancel,
+.combo-desc,
+.combo-image,
+.food-price,
+.food-name,
+.combo-subhead,
+.combo-head,
+.results-head,
+.results-sort,
+.results-filter,
+.combo-name,
+.combo-price,
+.combo-link,
 .nav-name,
 .home-description,
 .home-btn,
@@ -65,6 +81,14 @@
     font-family: 'Manjari', sans-serif;
 }
 
+.pro-head,
+.pro-update,
+.pro-close,
+.pro-input,
+.pro-label,
+.reg-confirm,
+.reg-label,
+.reg-input,
 .login-label,
 .login-input,
 .login-submit,
