@@ -41,12 +41,19 @@
         display: block;
         margin: 0 auto;
     
+        .pro-btn{
+            background-color: transparent;
+            border-color: transparent;
+            width: 85px;
+            height: 85px;
+            margin-left: 65%;
+            margin-top: 70%;
+        }
+
         .pro-icon{
             border-radius: 100%;
             width: 85px;
             z-index: 4;
-            margin-left: 65%;
-            margin-top: 70%;
         }
     }
 
@@ -125,13 +132,20 @@
         border-radius: 100%;
         display: block;
         margin: 0 auto;
+
+        .pro-btn{
+            background-color: transparent;
+            border-color: transparent;
+            width: 65px;
+            height: 65px;
+            margin-left: 65%;
+            margin-top: 70%;
+        }
     
         .pro-icon{
             border-radius: 100%;
             width: 65px;
             z-index: 4;
-            margin-left: 65%;
-            margin-top: 70%;
         }
     }
 
