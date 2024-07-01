@@ -31,12 +31,23 @@
         font-weight: bold;
     }
 
-    .pro-pic{
+    .pro-dp{
+        background-image: url(/images/no-profile.jpg);
+        background-size: 250px;
+        background-position: center;
+        height: 250px;
         width: 250px;
-        max-width: 250px;
         border-radius: 100%;
         display: block;
         margin: 0 auto;
+    
+        .pro-icon{
+            border-radius: 100%;
+            width: 85px;
+            z-index: 4;
+            margin-left: 65%;
+            margin-top: 70%;
+        }
     }
 
     .pro-info{
@@ -105,12 +116,23 @@
         font-weight: bold;
     }
 
-    .pro-pic{
-        width: 150px;
-        max-width: 150px;
+    .pro-dp{
+        background-image: url(/images/no-profile.jpg);
+        background-size: 170px;
+        background-position: center;
+        height: 170px;
+        width: 170px;
         border-radius: 100%;
         display: block;
         margin: 0 auto;
+    
+        .pro-icon{
+            border-radius: 100%;
+            width: 65px;
+            z-index: 4;
+            margin-left: 65%;
+            margin-top: 70%;
+        }
     }
 
     .pro-info{
